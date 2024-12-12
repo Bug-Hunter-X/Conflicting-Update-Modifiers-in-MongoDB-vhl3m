@@ -1,0 +1,2 @@
+# MongoDB Update Operation Bug
+This repository demonstrates a common error when using MongoDB update operations: applying conflicting modifiers to the same field within a single update statement.  Specifically, we're using both `$set` and `$inc` on the `age` field which leads to unexpected behavior. The solution shows how to correct this.
